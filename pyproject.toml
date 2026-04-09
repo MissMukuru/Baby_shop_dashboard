@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "nila_baby_shop"
+version = "0.0.1"
+description = "Predictive recc system and dashboard manager for nila baby shop"
+authors = [
+  { name = "Abby" },
+]
+
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+]
+requires-python = "~=3.10.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["nila_baby_shop"]
+include = ["pyproject.toml", "nila_baby_shop/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["nila_baby_shop"]
+force-sort-within-sections = true
+
