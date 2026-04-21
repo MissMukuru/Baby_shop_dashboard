@@ -1,13 +1,17 @@
 ipython
 loguru
-matplotlib
 numpy
 pandas
+plotly
 pip
 pytest
 python-dotenv
 ruff
 scikit-learn
+statsmodels
+streamlit
 tqdm
 typer
+ntlk
+xgboost
 -e .
