@@ -14,4 +14,3 @@ tqdm
 typer
 ntlk
 xgboost
--e .
