@@ -7,7 +7,7 @@ def test_model_artifact_exists():
     model_path = MODELS_DIR / "demand_forecast_model.pkl"
     assert model_path.exists(), (
         f"Model not found at {model_path}. Run: "
-        "python -m Nila_baby_shop.modeling.demand_forecast"
+        "python -m nila_baby_shop.modeling.demand_forecast"
     )
 
 

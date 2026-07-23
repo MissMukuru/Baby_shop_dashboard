@@ -2,7 +2,7 @@
 # GLOBALS                                                                       #
 #################################################################################
 
-PROJECT_NAME = Nila_baby_shop
+PROJECT_NAME = nila_baby_shop
 PYTHON_VERSION = 3.10
 PYTHON_INTERPRETER = python
 

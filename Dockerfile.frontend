@@ -9,7 +9,7 @@ WORKDIR /code
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY Nila_baby_shop/ ./Nila_baby_shop/
+COPY nila_baby_shop/ ./nila_baby_shop/
 COPY data/ ./data/
 
 EXPOSE 8501
@@ -17,4 +17,4 @@ EXPOSE 8501
 HEALTHCHECK --interval=30s --timeout=5s --start-period=10s \
   CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8501/_stcore/health')" || exit 1
 
-CMD ["streamlit", "run", "Nila_baby_shop/dashboard_app.py", "--server.address=0.0.0.0", "--server.port=8501"]
+CMD ["streamlit", "run", "nila_baby_shop/dashboard_app.py", "--server.address=0.0.0.0", "--server.port=8501"]
