@@ -147,15 +147,25 @@ def _demand_forecast_page(df: pd.DataFrame) -> None:
     growth_display = growth_table.copy()
     growth_display["week_start"] = growth_display["week_start"].dt.date
     growth_display["wow_growth_pct"] = growth_display["wow_growth_pct"].round(2)
-    st.dataframe(growth_display[["week_start", "product", "weekly_predicted_demand", "wow_growth_pct"]], use_container_width=True)
+    st.dataframe(
+        growth_display[["week_start", "product", "weekly_predicted_demand", "wow_growth_pct"]],
+        use_container_width=True,
+    )
 
 
 def _inventory_management_page(df: pd.DataFrame) -> None:
     st.subheader("Inventory intelligence")
     st.caption("Stock recommendations based on predicted demand (simple planning helper).")
 
-    if df.empty or "predicted_demand" not in df.columns or "date" not in df.columns or "product" not in df.columns:
-        st.warning("No inventory data found. Generate data/processed/demand_predictions.csv first.")
+    if (
+        df.empty
+        or "predicted_demand" not in df.columns
+        or "date" not in df.columns
+        or "product" not in df.columns
+    ):
+        st.warning(
+            "No inventory data found. Generate data/processed/demand_predictions.csv first."
+        )
         return
 
     latest = df.sort_values("date").groupby("product").tail(30).copy()
@@ -175,7 +185,9 @@ def _inventory_management_page(df: pd.DataFrame) -> None:
     summary["predicted_demand_7_days"] = (summary["avg_daily_demand"] * 7).round().astype("Int64")
 
     order_more_mask = summary["current_stock"] < summary["predicted_demand_7_days"].fillna(0)
-    overstock_mask = summary["current_stock"] > (summary["predicted_demand_7_days"].fillna(0) * 1.5)
+    overstock_mask = summary["current_stock"] > (
+        summary["predicted_demand_7_days"].fillna(0) * 1.5
+    )
 
     summary["recommendation"] = "Maintain"
     summary.loc[order_more_mask, "recommendation"] = "Order more"
@@ -183,7 +195,9 @@ def _inventory_management_page(df: pd.DataFrame) -> None:
 
     st.markdown("### Stock Recommendations")
     st.dataframe(
-        summary.sort_values(["recommendation", "predicted_demand_7_days", "product"], ascending=[True, False, True]),
+        summary.sort_values(
+            ["recommendation", "predicted_demand_7_days", "product"], ascending=[True, False, True]
+        ),
         use_container_width=True,
     )
 
@@ -200,6 +214,8 @@ def _inventory_management_page(df: pd.DataFrame) -> None:
         st.error(f"Overstock risk: {len(overstock)} products")
         for _, row in overstock.sort_values("current_stock", ascending=False).iterrows():
             st.write(f"- {row['product']}")
+
+
 def _customer_insights_section() -> None:
     st.subheader("💬 Customer Insights")
     st.caption("Analyze customer comments to detect buying intent.")
@@ -215,7 +231,7 @@ def _customer_insights_section() -> None:
         "Where are you located?",
         "Can I order today?",
         "Is there a discount?",
-        "Looks nice"
+        "Looks nice",
     ]
 
     df = pd.DataFrame({"comment": comments})
@@ -250,7 +266,9 @@ def _customer_insights_section() -> None:
         st.write(f"{intent}: {count} comments")
 
     # Business insight
-    high_intent = intent_counts.get("💰 High Purchase Intent", 0) + intent_counts.get("🛒 Strong Intent", 0)
+    high_intent = intent_counts.get("💰 High Purchase Intent", 0) + intent_counts.get(
+        "🛒 Strong Intent", 0
+    )
 
     total = len(df)
 
@@ -259,9 +277,10 @@ def _customer_insights_section() -> None:
         st.success(f"{percent:.1f}% of comments show strong buying intent")
 
 
-
 def main() -> None:
-    st.set_page_config(page_title="Nila Baby Shop - Demand Forecast", page_icon="DF", layout="wide")
+    st.set_page_config(
+        page_title="Nila Baby Shop - Demand Forecast", page_icon="DF", layout="wide"
+    )
     st.title("Nila Baby Shop Demand Forecast")
     _demand_forecast_page(_load_forecast_data())
 

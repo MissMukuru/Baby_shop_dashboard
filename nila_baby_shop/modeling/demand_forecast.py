@@ -10,9 +10,10 @@ from sklearn.metrics import accuracy_score, classification_report, mean_squared_
 from sklearn.model_selection import train_test_split
 import typer
 from xgboost import XGBRegressor
+
 from nila_baby_shop.config import MODELS_DIR, PROCESSED_DATA_DIR
 
-nltk.download('vader_lexicon')
+nltk.download("vader_lexicon")
 
 app = typer.Typer()
 
@@ -27,9 +28,7 @@ def main(
     normal_df.columns = normal_df.columns.str.strip()
     normal_df = normal_df.rename(columns={"comments_count": "comment_count"})
     normal_df["trend_score"] = (
-        normal_df["views"] * 0.5
-        + normal_df["likes"] * 2
-        + normal_df["comment_count"] * 3
+        normal_df["views"] * 0.5 + normal_df["likes"] * 2 + normal_df["comment_count"] * 3
     )
 
     forecast_df = pd.read_csv(forecast_features_path)
@@ -40,17 +39,17 @@ def main(
     )
 
     feature_columns = [
-            "likes",
-            "comment_count",
-            "estimated_price_ksh",
-            "is_weekend",
-            "year",
-            "month",
-            "day",
-            "week_of_year",
-            "lag_1_views",
-            "lag_7_views",
-            "rolling_mean_7"
+        "likes",
+        "comment_count",
+        "estimated_price_ksh",
+        "is_weekend",
+        "year",
+        "month",
+        "day",
+        "week_of_year",
+        "lag_1_views",
+        "lag_7_views",
+        "rolling_mean_7",
     ]
 
     cat_columns = [c for c in forecast_df.columns if c.startswith("category_")]
@@ -73,9 +72,7 @@ def main(
     X_df = forecast_df[feature_columns]
     y_df = forecast_df["views"]
 
-    X_train, X_test, y_train, y_test = train_test_split(
-        X_df, y_df, test_size=0.2, shuffle=False
-    )
+    X_train, X_test, y_train, y_test = train_test_split(X_df, y_df, test_size=0.2, shuffle=False)
 
     forecast_model = XGBRegressor(
         n_estimators=300,
@@ -97,7 +94,6 @@ def main(
     ).astype(int)
     X_v = normal_df[["views", "likes", "engagement_rate"]]
     y_v = normal_df["viral"]
-
 
     X_train, X_test, y_train, y_test = train_test_split(X_v, y_v, test_size=0.2, shuffle=True)
 
@@ -121,20 +117,24 @@ def main(
 
     if "sample_comment" not in normal_df.columns:
         normal_df["sample_comment"] = ""
-    normal_df["sentiment"] = normal_df["sample_comment"].astype(str).apply(
-        lambda x: sia.polarity_scores(x)["compound"]
+    normal_df["sentiment"] = (
+        normal_df["sample_comment"].astype(str).apply(lambda x: sia.polarity_scores(x)["compound"])
     )
 
     print("Demand Model RMSE:", rmse)
-    print(normal_df[[
-        "product",
-        "views",
-        "trend_score",
-        "viral_prob",
-        "stock_score",
-        "recommended_stock_units",
-        "sentiment"
-    ]].head())
+    print(
+        normal_df[
+            [
+                "product",
+                "views",
+                "trend_score",
+                "viral_prob",
+                "stock_score",
+                "recommended_stock_units",
+                "sentiment",
+            ]
+        ].head()
+    )
 
     joblib.dump(
         {
@@ -149,8 +149,5 @@ def main(
     logger.success(f"All models saved to {model_output}")
 
 
-
 if __name__ == "__main__":
     app()
-
-

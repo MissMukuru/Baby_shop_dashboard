@@ -55,7 +55,9 @@ def main(
     X_forecast = df[forecast_features]
     df["demand_prediction"] = forecast_model.predict(X_forecast)
 
-    viral_features = list(getattr(viral_model, "feature_names_in_", ["views", "likes", "engagement_rate"]))
+    viral_features = list(
+        getattr(viral_model, "feature_names_in_", ["views", "likes", "engagement_rate"])
+    )
     for col in viral_features:
         if col not in df.columns:
             if col == "views":
