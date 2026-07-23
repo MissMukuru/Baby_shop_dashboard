@@ -23,7 +23,7 @@ jobs:
           pip install ruff pytest fastapi "uvicorn[standard]" httpx
 
       - name: Lint
-        run: ruff check Nila_baby_shop app
+        run: ruff check nila_baby_shop app
 
       - name: Run tests
         run: pytest tests/ -v
