@@ -1,0 +1,366 @@
+date      , day_of_week, product           , category, views, likes, comments_count, sample_comment                 , estimated_price_ksh, demand_score, simulated_sales_units
+2025-03-29, Saturday   , Baby Bodysuit     , clothing, 17795,  1379,            220, Do you deliver outside Nairobi?,                 900,        10.22,                    30
+2025-03-30, Sunday     , Baby Stroller     , travel  ,  8265,   312,             18, Do you have other colors?      ,               32000,         4.21,                     5
+2025-03-31, Monday     , Baby Carrier      , travel  , 46131,  1713,            252, This is so cute!               ,                2800,         4.81,                    25
+2025-04-01, Tuesday    , Baby Bodysuit     , clothing,  2769,   183,             34, How much is this?              ,                 900,         9.06,                    11
+2025-04-02, Wednesday  , Baby Feeding Chair, feeding ,  7311,   582,             83, Where are you located?         ,               16000,        10.23,                    11
+2025-04-03, Thursday   , Baby Romper       , clothing, 30693,   931,             49, Do you deliver outside Nairobi?,                1200,         3.35,                    31
+2025-04-04, Friday     , Baby Bodysuit     , clothing, 27658,  1382,             78, Do you have other colors?      ,                 900,         5.56,                    25
+2025-04-05, Saturday   , Baby Carrier      , travel  ,  2189,    75,             10, Do you deliver outside Nairobi?,                2800,         4.34,                    16
+2025-04-06, Sunday     , Feeding Bottle    , feeding ,  3267,   194,             11, Do you have other colors?      ,                 800,         6.61,                    16
+2025-04-07, Monday     , Feeding Bottle    , feeding , 32740,  1719,             89, Where are you located?         ,                 800,         5.79,                    34
+2025-04-08, Tuesday    , Baby Carrier      , travel  , 45323,  2636,            284, Can I order today?             ,                2800,         7.07,                    30
+2025-04-09, Wednesday  , Baby Feeding Chair, feeding ,  4612,   191,             16, I need this for my baby        ,               16000,         4.84,                    13
+2025-04-10, Thursday   , Baby Romper       , clothing, 19159,   607,            113, This is so cute!               ,                1200,         4.35,                     8
+2025-04-11, Friday     , Baby Towel        , care    ,  3585,   226,             21, Is it available?               ,                 700,         7.48,                    15
+2025-04-12, Saturday   , Baby Stroller     , travel  , 45573,  2612,            203, This is so cute!               ,               32000,         6.62,                     7
+2025-04-13, Sunday     , Baby Carrier      , travel  ,  8873,   465,             50, Is it available?               ,                2800,         6.37,                     8
+2025-04-14, Monday     , Baby Bodysuit     , clothing, 34606,  2633,            166, How much is this?              ,                 900,         8.57,                    32
+2025-04-15, Tuesday    , Baby Towel        , care    , 27851,   898,             88, How much is this?              ,                 700,         3.86,                    25
+2025-04-16, Wednesday  , Baby Car Seat     , travel  , 26300,  1145,            199, Is it available?               ,               25000,         5.87,                     2
+2025-04-17, Thursday   , Baby Feeding Chair, feeding , 23243,  1402,            128, I need this for my baby        ,               16000,         7.13,                    14
+2025-04-18, Friday     , Baby Romper       , clothing, 42774,  2188,            239, Can I order today?             ,                1200,         6.23,                    12
+2025-04-19, Saturday   , Feeding Bottle    , feeding ,  7258,   289,             45, How much is this?              ,                 800,         5.22,                    44
+2025-04-20, Sunday     , Baby Towel        , care    , 14666,   494,             51, How much is this?              ,                 700,         4.06,                    50
+2025-04-21, Monday     , Feeding Bottle    , feeding , 24662,  1788,            209, I need this for my baby        ,                 800,         8.94,                    42
+2025-04-22, Tuesday    , Baby Feeding Chair, feeding , 25599,  1242,            186, Is it available?               ,               16000,         6.3 ,                     6
+2025-04-23, Wednesday  , Baby Feeding Chair, feeding , 32818,  1954,            178, Do you have other colors?      ,               16000,         7.04,                     4
+2025-04-24, Thursday   , Baby Bodysuit     , clothing,  7056,   346,             67, Do you deliver outside Nairobi?,                 900,         6.8 ,                    12
+2025-04-25, Friday     , Baby Carrier      , travel  , 19412,  1127,            186, I need this for my baby        ,                2800,         7.72,                    11
+2025-04-26, Saturday   , Baby Bodysuit     , clothing,  2206,   113,              6, Do you have other colors?      ,                 900,         5.67,                    22
+2025-04-27, Sunday     , Baby Bodysuit     , clothing, 43523,  2531,            390, Where are you located?         ,                 900,         7.61,                    46
+2025-04-28, Monday     , Baby Stroller     , travel  , 42342,  2549,            333, Can I order today?             ,               32000,         7.59,                     5
+2025-04-29, Tuesday    , Baby Car Seat     , travel  , 35827,  2763,            386, This is so cute!               ,               25000,         9.87,                     3
+2025-04-30, Wednesday  , Baby Car Seat     , travel  , 24299,  1858,            318, Is it available?               ,               25000,        10.26,                     1
+2025-05-01, Thursday   , Baby Carrier      , travel  , 46020,  3385,            577, I need this for my baby        ,                2800,         9.86,                    16
+2025-05-02, Friday     , Baby Bodysuit     , clothing, 27939,  2085,            272, This is so cute!               ,                 900,         9.41,                    37
+2025-05-03, Saturday   , Feeding Bottle    , feeding , 23976,  1100,             73, Do you have other colors?      ,                 800,         5.2 ,                    36
+2025-05-04, Sunday     , Baby Mittens Set  , clothing,  8776,   622,            111, Can I order today?             ,                 500,         9.62,                    48
+2025-05-05, Monday     , Baby Towel        , care    , 23959,  1358,            166, I need this for my baby        ,                 700,         7.05,                    42
+2025-05-06, Tuesday    , Feeding Bottle    , feeding , 34562,  1502,            130, Do you have other colors?      ,                 800,         5.1 ,                    41
+2025-05-07, Wednesday  , Baby Car Seat     , travel  , 32303,  1870,            206, Do you deliver outside Nairobi?,               25000,         7.06,                     6
+2025-05-08, Thursday   , Baby Carrier      , travel  , 48576,  2073,            180, Do you deliver outside Nairobi?,                2800,         5.01,                    11
+2025-05-09, Friday     , Baby Car Seat     , travel  , 46417,  3045,            219, Where are you located?         ,               25000,         7.5 ,                     1
+2025-05-10, Saturday   , Baby Stroller     , travel  , 28736,  2265,            252, How much is this?              ,               32000,         9.64,                     7
+2025-05-11, Sunday     , Baby Carrier      , travel  , 26548,  1254,            182, Is it available?               ,                2800,         6.09,                    34
+2025-05-12, Monday     , Baby Carrier      , travel  , 23556,  1283,            253, Can I order today?             ,                2800,         7.59,                    27
+2025-05-13, Tuesday    , Baby Towel        , care    ,  6931,   235,             24, Can I order today?             ,                 700,         4.08,                    26
+2025-05-14, Wednesday  , Baby Mittens Set  , clothing, 27342,  1918,            231, I need this for my baby        ,                 500,         8.7 ,                    43
+2025-05-15, Thursday   , Baby Mittens Set  , clothing,  2197,   109,             18, Do you have other colors?      ,                 500,         6.6 ,                    25
+2025-05-16, Friday     , Feeding Bottle    , feeding , 27184,  1020,            128, I need this for my baby        ,                 800,         4.69,                    25
+2025-05-17, Saturday   , Baby Feeding Chair, feeding , 17708,  1291,            127, Where are you located?         ,               16000,         8.72,                     5
+2025-05-18, Sunday     , Baby Feeding Chair, feeding ,  8546,   560,             95, Where are you located?         ,               16000,         8.78,                     5
+2025-05-19, Monday     , Baby Car Seat     , travel  ,  4911,   170,             32, Do you have other colors?      ,               25000,         4.76,                     7
+2025-05-20, Tuesday    , Baby Mittens Set  , clothing, 37153,  2670,            404, Can I order today?             ,                 500,         9.36,                    34
+2025-05-21, Wednesday  , Baby Bodysuit     , clothing, 49025,  3737,            678, Do you deliver outside Nairobi?,                 900,        10.39,                    44
+2025-05-22, Thursday   , Baby Bodysuit     , clothing, 18646,  1174,            202, This is so cute!               ,                 900,         8.46,                    58
+2025-05-23, Friday     , Baby Mittens Set  , clothing,  4049,   323,             62, Where are you located?         ,                 500,        11.04,                    14
+2025-05-24, Saturday   , Baby Feeding Chair, feeding , 31855,  1964,            198, How much is this?              ,               16000,         7.41,                     4
+2025-05-25, Sunday     , Baby Towel        , care    , 44642,  2959,            546, Where are you located?         ,                 700,         9.07,                    33
+2025-05-26, Monday     , Baby Feeding Chair, feeding , 14183,  1028,            195, Can I order today?             ,               16000,        10.0 ,                     5
+2025-05-27, Tuesday    , Feeding Bottle    , feeding , 44405,  2817,            386, I need this for my baby        ,                 800,         8.08,                    57
+2025-05-28, Wednesday  , Feeding Bottle    , feeding ,  4557,   350,             68, Do you deliver outside Nairobi?,                 800,        10.66,                    27
+2025-05-29, Thursday   , Baby Bodysuit     , clothing, 48975,  2217,            272, I need this for my baby        ,                 900,         5.64,                    44
+2025-05-30, Friday     , Baby Car Seat     , travel  , 48760,  1891,             99, How much is this?              ,               25000,         4.28,                     6
+2025-05-31, Saturday   , Baby Stroller     , travel  , 27876,  1085,            113, Where are you located?         ,               32000,         4.7 ,                     7
+2025-06-01, Sunday     , Baby Mittens Set  , clothing, 35986,  2262,            305, Can I order today?             ,                 500,         7.98,                    21
+2025-06-02, Monday     , Baby Romper       , clothing, 43914,  2124,            190, I need this for my baby        ,                1200,         5.7 ,                    18
+2025-06-03, Tuesday    , Feeding Bottle    , feeding , 16373,  1292,            158, This is so cute!               ,                 800,         9.82,                    17
+2025-06-04, Wednesday  , Feeding Bottle    , feeding , 21738,  1124,            115, How much is this?              ,                 800,         6.23,                    42
+2025-06-05, Thursday   , Baby Stroller     , travel  , 41790,  2282,            180, Do you have other colors?      ,               32000,         6.32,                     5
+2025-06-06, Friday     , Baby Mittens Set  , clothing, 11007,   484,             25, Is it available?               ,                 500,         4.85,                    58
+2025-06-07, Saturday   , Baby Mittens Set  , clothing, 42447,  1649,            315, Do you deliver outside Nairobi?,                 500,         5.37,                    38
+2025-06-08, Sunday     , Baby Feeding Chair, feeding , 19453,  1473,            155, Is it available?               ,               16000,         9.17,                    10
+2025-06-09, Monday     , Teether           , care    , 35828,  2737,            312, Do you deliver outside Nairobi?,                 350,         9.38,                    40
+2025-06-10, Tuesday    , Baby Bodysuit     , clothing,  2699,   196,             18, Is it available?               ,                 900,         8.6 ,                    30
+2025-06-11, Wednesday  , Baby Stroller     , travel  , 37743,  2738,            267, Do you have other colors?      ,               32000,         8.67,                     2
+2025-06-12, Thursday   , Baby Romper       , clothing, 36584,  1819,            321, Do you have other colors?      ,                1200,         6.73,                     7
+2025-06-13, Friday     , Baby Feeding Chair, feeding , 36663,  1228,             99, How much is this?              ,               16000,         3.89,                     7
+2025-06-14, Saturday   , Baby Bodysuit     , clothing, 20070,   742,             94, Can I order today?             ,                 900,         4.63,                    11
+2025-06-15, Sunday     , Baby Bodysuit     , clothing, 47017,  3151,            486, This is so cute!               ,                 900,         8.77,                    52
+2025-06-16, Monday     , Baby Mittens Set  , clothing, 14533,   697,             65, Can I order today?             ,                 500,         5.69,                    35
+2025-06-17, Tuesday    , Feeding Bottle    , feeding , 40754,  1744,            247, This is so cute!               ,                 800,         5.49,                    16
+2025-06-18, Wednesday  , Baby Stroller     , travel  , 26376,  1619,            128, Where are you located?         ,               32000,         7.11,                     6
+2025-06-19, Thursday   , Baby Carrier      , travel  ,  6495,   211,             38, Do you have other colors?      ,                2800,         4.42,                    19
+2025-06-20, Friday     , Baby Stroller     , travel  , 15403,   907,            105, Where are you located?         ,               32000,         7.25,                     7
+2025-06-21, Saturday   , Baby Car Seat     , travel  , 35621,  1653,            121, Can I order today?             ,               25000,         5.32,                     6
+2025-06-22, Sunday     , Feeding Bottle    , feeding , 24677,  1469,             80, Can I order today?             ,                 800,         6.6 ,                    51
+2025-06-23, Monday     , Baby Bodysuit     , clothing, 31749,  1805,            178, Do you have other colors?      ,                 900,         6.81,                    17
+2025-06-24, Tuesday    , Baby Carrier      , travel  , 21508,   937,            182, How much is this?              ,                2800,         6.05,                    11
+2025-06-25, Wednesday  , Baby Car Seat     , travel  , 23699,  1708,            135, Do you deliver outside Nairobi?,               25000,         8.35,                     6
+2025-06-26, Thursday   , Baby Feeding Chair, feeding ,  6142,   399,             28, Do you have other colors?      ,               16000,         7.41,                    14
+2025-06-27, Friday     , Baby Feeding Chair, feeding , 39233,  2189,            215, Do you have other colors?      ,               16000,         6.68,                     2
+2025-06-28, Saturday   , Baby Romper       , clothing, 10311,   448,             51, How much is this?              ,                1200,         5.33,                    27
+2025-06-29, Sunday     , Baby Romper       , clothing, 27945,   873,            169, Do you have other colors?      ,                1200,         4.33,                    27
+2025-06-30, Monday     , Baby Bodysuit     , clothing,  3150,   204,             22, Do you deliver outside Nairobi?,                 900,         7.87,                    10
+2025-07-01, Tuesday    , Baby Car Seat     , travel  , 48175,  2768,            435, How much is this?              ,               25000,         7.55,                     5
+2025-07-02, Wednesday  , Feeding Bottle    , feeding , 47952,  3727,            598, Do you have other colors?      ,                 800,        10.27,                    14
+2025-07-03, Thursday   , Baby Stroller     , travel  , 49893,  3317,            189, Can I order today?             ,               32000,         7.41,                     2
+2025-07-04, Friday     , Baby Carrier      , travel  ,  3679,   139,              9, This is so cute!               ,                2800,         4.27,                    33
+2025-07-05, Saturday   , Baby Feeding Chair, feeding , 11435,   369,             20, Can I order today?             ,               16000,         3.58,                     5
+2025-07-06, Sunday     , Baby Carrier      , travel  , 31124,  1671,            108, Can I order today?             ,                2800,         6.06,                    20
+2025-07-07, Monday     , Baby Towel        , care    , 31222,  1477,            176, Do you have other colors?      ,                 700,         5.86,                    46
+2025-07-08, Tuesday    , Baby Bodysuit     , clothing, 28646,   928,            178, How much is this?              ,                 900,         4.48,                    45
+2025-07-09, Wednesday  , Baby Towel        , care    ,  4849,   208,             10, Is it available?               ,                 700,         4.7 ,                    28
+2025-07-10, Thursday   , Baby Towel        , care    , 37257,  2051,            268, Where are you located?         ,                 700,         6.94,                    54
+2025-07-11, Friday     , Teether           , care    ,  6611,   401,             76, Do you deliver outside Nairobi?,                 350,         8.36,                    11
+2025-07-12, Saturday   , Baby Bodysuit     , clothing, 31168,  2286,            332, Do you deliver outside Nairobi?,                 900,         9.46,                    29
+2025-07-13, Sunday     , Baby Towel        , care    , 20071,  1281,            174, Is it available?               ,                 700,         8.12,                    42
+2025-07-14, Monday     , Baby Bodysuit     , clothing,  6000,   423,             73, Do you have other colors?      ,                 900,         9.48,                    21
+2025-07-15, Tuesday    , Baby Carrier      , travel  , 42770,  3037,            448, Do you have other colors?      ,                2800,         9.2 ,                    15
+2025-07-16, Wednesday  , Feeding Bottle    , feeding , 26107,  1140,             93, Can I order today?             ,                 800,         5.08,                    55
+2025-07-17, Thursday   , Baby Mittens Set  , clothing, 14161,   452,             64, Where are you located?         ,                 500,         4.1 ,                    32
+2025-07-18, Friday     , Baby Mittens Set  , clothing, 29472,  1850,            199, I need this for my baby        ,                 500,         7.63,                    19
+2025-07-19, Saturday   , Teether           , care    , 11817,   555,             49, Do you have other colors?      ,                 350,         5.53,                    16
+2025-07-20, Sunday     , Baby Bodysuit     , clothing,  5267,   340,             34, Can I order today?             ,                 900,         7.75,                    20
+2025-07-21, Monday     , Feeding Bottle    , feeding ,  2412,    77,              8, How much is this?              ,                 800,         3.86,                    45
+2025-07-22, Tuesday    , Baby Romper       , clothing, 46425,  2375,            321, Do you deliver outside Nairobi?,                1200,         6.5 ,                     7
+2025-07-23, Wednesday  , Baby Bodysuit     , clothing, 19506,   987,            104, Do you have other colors?      ,                 900,         6.13,                    48
+2025-07-24, Thursday   , Baby Mittens Set  , clothing, 36911,  1736,            329, Where are you located?         ,                 500,         6.49,                    46
+2025-07-25, Friday     , Teether           , care    , 46811,  2408,            391, Can I order today?             ,                 350,         6.81,                    34
+2025-07-26, Saturday   , Baby Carrier      , travel  ,  4914,   172,             31, Where are you located?         ,                2800,         4.76,                    34
+2025-07-27, Sunday     , Baby Romper       , clothing, 43555,  3106,            304, This is so cute!               ,                1200,         8.53,                    31
+2025-07-28, Monday     , Baby Towel        , care    , 41954,  2075,            107, Do you deliver outside Nairobi?,                 700,         5.46,                    50
+2025-07-29, Tuesday    , Baby Towel        , care    , 26466,   914,             89, I need this for my baby        ,                 700,         4.13,                    23
+2025-07-30, Wednesday  , Teether           , care    , 34307,  2012,            291, I need this for my baby        ,                 350,         7.56,                    14
+2025-07-31, Thursday   , Baby Towel        , care    , 39259,  1822,            274, Can I order today?             ,                 700,         6.04,                    45
+2025-08-01, Friday     , Baby Mittens Set  , clothing,  3167,   220,             14, Do you have other colors?      ,                 500,         7.83,                    51
+2025-08-02, Saturday   , Baby Stroller     , travel  , 23689,   778,            103, Do you have other colors?      ,               32000,         4.15,                     5
+2025-08-03, Sunday     , Baby Romper       , clothing, 25714,  1912,            196, Do you deliver outside Nairobi?,                1200,         8.96,                    22
+2025-08-04, Monday     , Baby Car Seat     , travel  , 39614,  1471,            241, Do you deliver outside Nairobi?,               25000,         4.93,                     4
+2025-08-05, Tuesday    , Baby Romper       , clothing,  9056,   317,             19, Can I order today?             ,                1200,         3.92,                    17
+2025-08-06, Wednesday  , Feeding Bottle    , feeding , 41081,  2047,            376, This is so cute!               ,                 800,         6.81,                    11
+2025-08-07, Thursday   , Baby Romper       , clothing, 19924,  1109,             94, How much is this?              ,                1200,         6.51,                    12
+2025-08-08, Friday     , Baby Mittens Set  , clothing, 15807,  1156,            210, How much is this?              ,                 500,         9.97,                    26
+2025-08-09, Saturday   , Baby Feeding Chair, feeding , 42262,  3351,            546, How much is this?              ,               16000,        10.51,                     7
+2025-08-10, Sunday     , Baby Carrier      , travel  , 25803,   881,            146, Where are you located?         ,                2800,         4.55,                    26
+2025-08-11, Monday     , Baby Bodysuit     , clothing, 28790,  1474,            274, Do you have other colors?      ,                 900,         7.02,                    48
+2025-08-12, Tuesday    , Baby Feeding Chair, feeding , 17485,   955,             49, Do you deliver outside Nairobi?,               16000,         6.02,                    13
+2025-08-13, Wednesday  , Baby Feeding Chair, feeding ,  5709,   187,             12, How much is this?              ,               16000,         3.7 ,                    14
+2025-08-14, Thursday   , Baby Towel        , care    , 27470,  1715,            277, Is it available?               ,                 700,         8.26,                    22
+2025-08-15, Friday     , Baby Stroller     , travel  , 16683,  1303,            138, Do you have other colors?      ,               32000,         9.46,                     1
+2025-08-16, Saturday   , Baby Car Seat     , travel  , 25960,  1906,            159, Do you have other colors?      ,               25000,         8.57,                     6
+2025-08-17, Sunday     , Baby Stroller     , travel  ,  4105,   125,             24, Where are you located?         ,               32000,         4.21,                     5
+2025-08-18, Monday     , Baby Mittens Set  , clothing, 39678,  2958,            382, I need this for my baby        ,                 500,         9.38,                    20
+2025-08-19, Tuesday    , Teether           , care    , 13003,   438,             58, Is it available?               ,                 350,         4.26,                    29
+2025-08-20, Wednesday  , Baby Bodysuit     , clothing, 46472,  2609,            376, Do you deliver outside Nairobi?,                 900,         7.23,                    23
+2025-08-21, Thursday   , Teether           , care    , 44356,  2876,            309, How much is this?              ,                 350,         7.88,                    32
+2025-08-22, Friday     , Baby Bodysuit     , clothing, 26504,  2008,            389, Do you have other colors?      ,                 900,        10.51,                    25
+2025-08-23, Saturday   , Feeding Bottle    , feeding , 23447,  1165,             76, I need this for my baby        ,                 800,         5.62,                    17
+2025-08-24, Sunday     , Baby Mittens Set  , clothing, 11337,   446,             53, Is it available?               ,                 500,         4.87,                    59
+2025-08-25, Monday     , Baby Bodysuit     , clothing, 35307,  1196,            234, Do you have other colors?      ,                 900,         4.71,                    36
+2025-08-26, Tuesday    , Baby Car Seat     , travel  , 49605,  1568,            144, I need this for my baby        ,               25000,         3.74,                     5
+2025-08-27, Wednesday  , Baby Mittens Set  , clothing, 37547,  1635,            114, Can I order today?             ,                 500,         4.96,                    44
+2025-08-28, Thursday   , Feeding Bottle    , feeding , 47445,  3676,            583, I need this for my baby        ,                 800,        10.21,                    56
+2025-08-29, Friday     , Baby Feeding Chair, feeding , 12136,   617,            117, Do you deliver outside Nairobi?,               16000,         7.01,                     3
+2025-08-30, Saturday   , Feeding Bottle    , feeding , 31548,  1206,            134, I need this for my baby        ,                 800,         4.67,                    10
+2025-08-31, Sunday     , Baby Bodysuit     , clothing, 36961,  2933,            212, This is so cute!               ,                 900,         9.08,                    30
+2025-09-01, Monday     , Baby Stroller     , travel  , 25833,  1266,            247, How much is this?              ,               32000,         6.81,                     3
+2025-09-02, Tuesday    , Baby Bodysuit     , clothing, 23168,  1666,            200, This is so cute!               ,                 900,         8.92,                    44
+2025-09-03, Wednesday  , Baby Stroller     , travel  , 10702,   467,             27, I need this for my baby        ,               32000,         4.87,                     6
+2025-09-04, Thursday   , Baby Feeding Chair, feeding , 14763,  1042,            208, Do you have other colors?      ,               16000,         9.88,                     7
+2025-09-05, Friday     , Baby Car Seat     , travel  , 17106,   988,            163, Do you have other colors?      ,               25000,         7.68,                     5
+2025-09-06, Saturday   , Baby Stroller     , travel  ,  6809,   493,             42, Can I order today?             ,               32000,         8.47,                     6
+2025-09-07, Sunday     , Baby Stroller     , travel  , 40765,  1735,            158, Do you deliver outside Nairobi?,               32000,         5.03,                     4
+2025-09-08, Monday     , Baby Bodysuit     , clothing, 23949,  1770,            289, Where are you located?         ,                 900,         9.8 ,                    43
+2025-09-09, Tuesday    , Baby Stroller     , travel  , 38187,  1658,             88, Do you deliver outside Nairobi?,               32000,         4.8 ,                     2
+2025-09-10, Wednesday  , Baby Romper       , clothing, 45125,  3229,            310, Is it available?               ,                1200,         8.53,                     5
+2025-09-11, Thursday   , Baby Mittens Set  , clothing, 10427,   605,            109, I need this for my baby        ,                 500,         7.89,                    26
+2025-09-12, Friday     , Baby Mittens Set  , clothing, 21198,   666,            108, Can I order today?             ,                 500,         4.16,                    30
+2025-09-13, Saturday   , Feeding Bottle    , feeding , 14173,   924,             75, Where are you located?         ,                 800,         7.58,                    47
+2025-09-14, Sunday     , Feeding Bottle    , feeding , 15051,  1189,            167, Do you deliver outside Nairobi?,                 800,        10.12,                    27
+2025-09-15, Monday     , Baby Bodysuit     , clothing,  8941,   516,             32, How much is this?              ,                 900,         6.49,                    43
+2025-09-16, Tuesday    , Baby Mittens Set  , clothing, 19715,  1131,            133, Do you deliver outside Nairobi?,                 500,         7.09,                    24
+2025-09-17, Wednesday  , Baby Car Seat     , travel  ,  6637,   405,             72, This is so cute!               ,               25000,         8.27,                     5
+2025-09-18, Thursday   , Baby Towel        , care    , 39660,  1481,            279, This is so cute!               ,                 700,         5.14,                    19
+2025-09-19, Friday     , Baby Romper       , clothing, 21963,   731,             41, I need this for my baby        ,                1200,         3.7 ,                    10
+2025-09-20, Saturday   , Baby Car Seat     , travel  , 16388,   776,             63, Do you deliver outside Nairobi?,               25000,         5.5 ,                     3
+2025-09-21, Sunday     , Baby Car Seat     , travel  , 14015,   659,             86, Do you have other colors?      ,               25000,         5.93,                     7
+2025-09-22, Monday     , Baby Carrier      , travel  , 42118,  2494,            274, How much is this?              ,                2800,         7.22,                    20
+2025-09-23, Tuesday    , Baby Car Seat     , travel  , 26071,  1016,            156, Where are you located?         ,               25000,         5.09,                     1
+2025-09-24, Wednesday  , Baby Feeding Chair, feeding , 20271,  1088,            163, This is so cute!               ,               16000,         6.98,                     3
+2025-09-25, Thursday   , Baby Carrier      , travel  , 30732,  1217,             68, This is so cute!               ,                2800,         4.4 ,                     9
+2025-09-26, Friday     , Baby Mittens Set  , clothing, 23969,  1052,             80, Where are you located?         ,                 500,         5.06,                    30
+2025-09-27, Saturday   , Baby Romper       , clothing, 41749,  1504,            179, This is so cute!               ,                1200,         4.46,                    30
+2025-09-28, Sunday     , Baby Car Seat     , travel  , 29693,  1431,            179, Where are you located?         ,               25000,         6.02,                     5
+2025-09-29, Monday     , Baby Carrier      , travel  , 18282,   584,             99, I need this for my baby        ,                2800,         4.28,                    29
+2025-09-30, Tuesday    , Baby Mittens Set  , clothing, 45221,  1541,            278, How much is this?              ,                 500,         4.64,                    57
+2025-10-01, Wednesday  , Baby Towel        , care    ,  6432,   282,             48, Do you deliver outside Nairobi?,                 700,         5.88,                    58
+2025-10-02, Thursday   , Teether           , care    , 16178,   634,             51, Do you have other colors?      ,                 350,         4.55,                    31
+2025-10-03, Friday     , Baby Carrier      , travel  , 10717,   652,             68, Can I order today?             ,                2800,         7.35,                    28
+2025-10-04, Saturday   , Baby Car Seat     , travel  , 18748,   620,             44, I need this for my baby        ,               25000,         3.78,                     3
+2025-10-05, Sunday     , Baby Carrier      , travel  ,  7126,   458,             80, Do you have other colors?      ,                2800,         8.67,                    15
+2025-10-06, Monday     , Baby Romper       , clothing, 40638,  1281,            230, Do you have other colors?      ,                1200,         4.28,                    10
+2025-10-07, Tuesday    , Baby Towel        , care    , 41650,  2076,            136, Is it available?               ,                 700,         5.64,                    46
+2025-10-08, Wednesday  , Baby Stroller     , travel  , 12267,   380,             37, How much is this?              ,               32000,         3.7 ,                     7
+2025-10-09, Thursday   , Baby Stroller     , travel  ,  8229,   381,             25, Is it available?               ,               32000,         5.24,                     1
+2025-10-10, Friday     , Feeding Bottle    , feeding ,  5596,   333,             50, Where are you located?         ,                 800,         7.74,                    12
+2025-10-11, Saturday   , Feeding Bottle    , feeding , 18616,  1022,             64, Is it available?               ,                 800,         6.18,                    56
+2025-10-12, Sunday     , Baby Romper       , clothing, 28069,  1665,            269, How much is this?              ,                1200,         7.85,                    21
+2025-10-13, Monday     , Baby Stroller     , travel  , 25275,   919,             85, This is so cute!               ,               32000,         4.31,                     6
+2025-10-14, Tuesday    , Baby Feeding Chair, feeding , 21123,  1315,            178, I need this for my baby        ,               16000,         7.91,                     9
+2025-10-15, Wednesday  , Baby Romper       , clothing, 12554,   995,            140, How much is this?              ,                1200,        10.16,                     5
+2025-10-16, Thursday   , Baby Feeding Chair, feeding , 29285,  1208,            126, Where are you located?         ,               16000,         4.99,                     5
+2025-10-17, Friday     , Baby Car Seat     , travel  , 13613,   535,             49, Is it available?               ,               25000,         4.65,                     7
+2025-10-18, Saturday   , Baby Towel        , care    , 22119,  1655,            102, How much is this?              ,                 700,         8.4 ,                    40
+2025-10-19, Sunday     , Baby Towel        , care    ,  6324,   500,             33, Do you have other colors?      ,                 700,         8.95,                    11
+2025-10-20, Monday     , Baby Stroller     , travel  , 43427,  3407,            612, Do you deliver outside Nairobi?,               32000,        10.66,                     6
+2025-10-21, Tuesday    , Baby Towel        , care    ,  2117,    90,              6, Do you deliver outside Nairobi?,                 700,         4.82,                    11
+2025-10-22, Wednesday  , Feeding Bottle    , feeding ,  2846,   161,             19, Do you have other colors?      ,                 800,         6.99,                    54
+2025-10-23, Thursday   , Baby Car Seat     , travel  , 34043,  1370,            267, Where are you located?         ,               25000,         5.59,                     4
+2025-10-24, Friday     , Baby Bodysuit     , clothing, 28386,  1134,            181, Is it available?               ,                 900,         5.27,                    21
+2025-10-25, Saturday   , Baby Feeding Chair, feeding ,  4048,   245,             22, Is it available?               ,               16000,         7.14,                     6
+2025-10-26, Sunday     , Baby Bodysuit     , clothing,  3917,   147,             17, I need this for my baby        ,                 900,         4.62,                    52
+2025-10-27, Monday     , Feeding Bottle    , feeding , 49362,  1608,            161, I need this for my baby        ,                 800,         3.91,                    19
+2025-10-28, Tuesday    , Baby Towel        , care    , 18644,   618,            122, Is it available?               ,                 700,         4.62,                    22
+2025-10-29, Wednesday  , Baby Towel        , care    ,  7287,   513,             45, I need this for my baby        ,                 700,         8.28,                    46
+2025-10-30, Thursday   , Feeding Bottle    , feeding , 45336,  3083,            429, This is so cute!               ,                 800,         8.69,                    33
+2025-10-31, Friday     , Baby Carrier      , travel  , 34293,  1734,            177, Where are you located?         ,                2800,         6.09,                    21
+2025-11-01, Saturday   , Baby Towel        , care    , 19988,  1429,            278, This is so cute!               ,                 700,         9.93,                    23
+2025-11-02, Sunday     , Baby Feeding Chair, feeding ,  3908,   260,             49, I need this for my baby        ,               16000,         9.16,                    13
+2025-11-03, Monday     , Baby Towel        , care    , 10162,   338,             54, Do you deliver outside Nairobi?,                 700,         4.39,                    31
+2025-11-04, Tuesday    , Baby Stroller     , travel  ,  7951,   549,             95, I need this for my baby        ,               32000,         9.29,                     5
+2025-11-05, Wednesday  , Baby Carrier      , travel  , 32523,  1241,             92, Where are you located?         ,                2800,         4.38,                     9
+2025-11-06, Thursday   , Baby Feeding Chair, feeding , 21282,  1346,            172, Is it available?               ,               16000,         7.94,                     5
+2025-11-07, Friday     , Teether           , care    , 18984,  1402,            152, Can I order today?             ,                 350,         8.99,                    49
+2025-11-08, Saturday   , Teether           , care    , 11510,   756,            139, Do you have other colors?      ,                 350,         8.98,                    47
+2025-11-09, Sunday     , Feeding Bottle    , feeding ,  7984,   537,             67, Can I order today?             ,                 800,         8.4 ,                    34
+2025-11-10, Monday     , Baby Mittens Set  , clothing,  4192,   314,             33, How much is this?              ,                 500,         9.06,                    23
+2025-11-11, Tuesday    , Baby Stroller     , travel  , 38455,  1594,            209, Is it available?               ,               32000,         5.23,                     6
+2025-11-12, Wednesday  , Baby Bodysuit     , clothing, 29202,  1792,            179, Do you have other colors?      ,                 900,         7.36,                    24
+2025-11-13, Thursday   , Baby Stroller     , travel  ,  7788,   426,             68, Do you have other colors?      ,               32000,         7.22,                     3
+2025-11-14, Friday     , Baby Carrier      , travel  , 35187,  2810,            457, This is so cute!               ,                2800,        10.58,                    33
+2025-11-15, Saturday   , Baby Romper       , clothing, 34154,  2295,            126, Do you deliver outside Nairobi?,                1200,         7.46,                    26
+2025-11-16, Sunday     , Baby Carrier      , travel  , 34265,  1874,            305, Can I order today?             ,                2800,         7.25,                    26
+2025-11-17, Monday     , Baby Feeding Chair, feeding , 25710,  1258,            149, How much is this?              ,               16000,         6.05,                     5
+2025-11-18, Tuesday    , Teether           , care    , 42631,  2349,            307, Where are you located?         ,                 350,         6.95,                    38
+2025-11-19, Wednesday  , Baby Feeding Chair, feeding , 16382,   826,            136, Do you have other colors?      ,               16000,         6.7 ,                    12
+2025-11-20, Thursday   , Baby Towel        , care    , 18478,  1107,            149, Can I order today?             ,                 700,         7.6 ,                    35
+2025-11-21, Friday     , Baby Towel        , care    , 36884,  2631,            510, Do you have other colors?      ,                 700,         9.9 ,                    49
+2025-11-22, Saturday   , Baby Mittens Set  , clothing, 12789,   529,             60, Do you deliver outside Nairobi?,                 500,         5.07,                    35
+2025-11-23, Sunday     , Baby Bodysuit     , clothing, 12541,   761,            142, Where are you located?         ,                 900,         8.33,                    49
+2025-11-24, Monday     , Baby Carrier      , travel  , 46241,  2800,            147, This is so cute!               ,                2800,         6.69,                    32
+2025-11-25, Tuesday    , Feeding Bottle    , feeding , 29306,  2245,            302, Can I order today?             ,                 800,         9.72,                    13
+2025-11-26, Wednesday  , Baby Romper       , clothing, 40727,  2548,            422, Do you have other colors?      ,                1200,         8.33,                    30
+2025-11-27, Thursday   , Baby Bodysuit     , clothing, 22530,  1505,            286, Can I order today?             ,                 900,         9.22,                    31
+2025-11-28, Friday     , Baby Mittens Set  , clothing, 49882,  2620,            175, Can I order today?             ,                 500,         5.95,                    30
+2025-11-29, Saturday   , Feeding Bottle    , feeding , 38185,  2747,            188, Is it available?               ,                 800,         8.18,                    10
+2025-11-30, Sunday     , Teether           , care    , 36622,  1668,            140, Where are you located?         ,                 350,         5.32,                    24
+2025-12-01, Monday     , Feeding Bottle    , feeding ,  4708,   230,             37, Can I order today?             ,                 800,         6.46,                    19
+2025-12-02, Tuesday    , Baby Mittens Set  , clothing, 41224,  1246,            124, Can I order today?             ,                 500,         3.62,                    34
+2025-12-03, Wednesday  , Teether           , care    , 36393,  2765,            281, I need this for my baby        ,                 350,         9.14,                    27
+2025-12-04, Thursday   , Baby Carrier      , travel  , 10666,   713,             84, I need this for my baby        ,                2800,         8.26,                    15
+2025-12-05, Friday     , Feeding Bottle    , feeding , 43914,  2310,            164, Can I order today?             ,                 800,         6.01,                    33
+2025-12-06, Saturday   , Baby Carrier      , travel  , 47080,  2585,            291, I need this for my baby        ,                2800,         6.73,                    28
+2025-12-07, Sunday     , Teether           , care    , 48240,  2321,            318, How much is this?              ,                 350,         6.13,                    31
+2025-12-08, Monday     , Baby Stroller     , travel  , 21097,   646,             96, Do you have other colors?      ,               32000,         3.97,                     7
+2025-12-09, Tuesday    , Baby Stroller     , travel  ,  6944,   542,             39, Is it available?               ,               32000,         8.93,                     6
+2025-12-10, Wednesday  , Baby Car Seat     , travel  , 26917,   922,            183, How much is this?              ,               25000,         4.79,                     1
+2025-12-11, Thursday   , Baby Mittens Set  , clothing, 22806,  1363,             81, This is so cute!               ,                 500,         6.69,                    32
+2025-12-12, Friday     , Baby Carrier      , travel  ,  4482,   181,             33, Where are you located?         ,                2800,         5.51,                    34
+2025-12-13, Saturday   , Baby Mittens Set  , clothing, 29952,   953,            115, Do you have other colors?      ,                 500,         3.95,                    49
+2025-12-14, Sunday     , Baby Bodysuit     , clothing, 25570,   851,            141, Where are you located?         ,                 900,         4.43,                    56
+2025-12-15, Monday     , Baby Towel        , care    , 30865,  1750,            213, Is it available?               ,                 700,         7.05,                    39
+2025-12-16, Tuesday    , Feeding Bottle    , feeding , 40565,  2769,            181, Can I order today?             ,                 800,         7.72,                    17
+2025-12-17, Wednesday  , Baby Towel        , care    , 14342,  1108,            117, Do you deliver outside Nairobi?,                 700,         9.36,                    19
+2025-12-18, Thursday   , Baby Carrier      , travel  , 12093,   681,            115, Where are you located?         ,                2800,         7.53,                    27
+2025-12-19, Friday     , Baby Towel        , care    , 42411,  3053,            549, Do you deliver outside Nairobi?,                 700,         9.79,                    17
+2025-12-20, Saturday   , Baby Feeding Chair, feeding , 47368,  1946,            164, Where are you located?         ,               16000,         4.8 ,                    12
+2025-12-21, Sunday     , Teether           , care    , 10519,   370,             62, Do you deliver outside Nairobi?,                 350,         4.7 ,                    12
+2025-12-22, Monday     , Baby Car Seat     , travel  , 41986,  2629,            225, I need this for my baby        ,               25000,         7.33,                     2
+2025-12-23, Tuesday    , Baby Towel        , care    ,  9970,   420,             66, Where are you located?         ,                 700,         5.54,                    55
+2025-12-24, Wednesday  , Feeding Bottle    , feeding , 20922,  1634,            313, Do you have other colors?      ,                 800,        10.8 ,                    30
+2025-12-25, Thursday   , Teether           , care    , 23389,  1044,            192, Do you have other colors?      ,                 350,         6.11,                    16
+2025-12-26, Friday     , Baby Stroller     , travel  ,  6425,   220,             17, Where are you located?         ,               32000,         3.95,                     3
+2025-12-27, Saturday   , Teether           , care    , 22079,   862,            118, Do you deliver outside Nairobi?,                 350,         4.97,                    27
+2025-12-28, Sunday     , Baby Towel        , care    , 10705,   808,            116, Is it available?               ,                 700,         9.72,                    20
+2025-12-29, Monday     , Baby Towel        , care    , 39609,  2822,            294, This is so cute!               ,                 700,         8.61,                    21
+2025-12-30, Tuesday    , Teether           , care    , 16596,   784,            130, This is so cute!               ,                 350,         6.29,                    18
+2025-12-31, Wednesday  , Baby Feeding Chair, feeding ,  9083,   372,             72, Do you deliver outside Nairobi?,               16000,         5.68,                    13
+2026-01-01, Thursday   , Baby Towel        , care    , 31975,  1141,            153, Do you deliver outside Nairobi?,                 700,         4.53,                    55
+2026-01-02, Friday     , Baby Bodysuit     , clothing, 22607,   884,            108, Where are you located?         ,                 900,         4.87,                    26
+2026-01-03, Saturday   , Baby Mittens Set  , clothing,  4573,   306,             47, Can I order today?             ,                 500,         8.75,                    34
+2026-01-04, Sunday     , Baby Mittens Set  , clothing, 25752,   951,            166, Do you deliver outside Nairobi?,                 500,         4.98,                    13
+2026-01-05, Monday     , Baby Stroller     , travel  , 43401,  3256,            500, Where are you located?         ,               32000,         9.81,                     5
+2026-01-06, Tuesday    , Baby Car Seat     , travel  , 18458,  1312,            169, Do you have other colors?      ,               25000,         8.94,                     2
+2026-01-07, Wednesday  , Teether           , care    , 40243,  2209,            132, Is it available?               ,                 350,         6.15,                    46
+2026-01-08, Thursday   , Baby Car Seat     , travel  , 33896,  1859,            293, Where are you located?         ,               25000,         7.21,                     5
+2026-01-09, Friday     , Baby Stroller     , travel  , 42809,  1583,            141, Where are you located?         ,               32000,         4.36,                     7
+2026-01-10, Saturday   , Baby Stroller     , travel  , 19029,  1267,            111, How much is this?              ,               32000,         7.82,                     5
+2026-01-11, Sunday     , Teether           , care    , 49924,  1935,            362, Do you deliver outside Nairobi?,                 350,         5.33,                    35
+2026-01-12, Monday     , Feeding Bottle    , feeding , 37796,  1857,            237, Do you deliver outside Nairobi?,                 800,         6.17,                    11
+2026-01-13, Tuesday    , Baby Car Seat     , travel  , 37835,  2948,            228, Do you have other colors?      ,               25000,         9.0 ,                     5
+2026-01-14, Wednesday  , Baby Bodysuit     , clothing, 13555,   929,             55, Do you deliver outside Nairobi?,                 900,         7.67,                    20
+2026-01-15, Thursday   , Baby Romper       , clothing, 26063,  1974,            312, Do you have other colors?      ,                1200,         9.97,                    12
+2026-01-16, Friday     , Baby Carrier      , travel  , 30769,  1533,            296, Do you deliver outside Nairobi?,                2800,         6.91,                    26
+2026-01-17, Saturday   , Baby Feeding Chair, feeding , 25863,  1053,             57, This is so cute!               ,               16000,         4.51,                     5
+2026-01-18, Sunday     , Baby Carrier      , travel  ,  3762,   271,             47, This is so cute!               ,                2800,         9.7 ,                    31
+2026-01-19, Monday     , Teether           , care    , 47420,  1789,            256, How much is this?              ,                 350,         4.85,                    11
+2026-01-20, Tuesday    , Baby Feeding Chair, feeding ,  3524,   166,             17, Do you have other colors?      ,               16000,         5.68,                     2
+2026-01-21, Wednesday  , Teether           , care    , 36008,  2349,            328, I need this for my baby        ,                 350,         8.35,                    34
+2026-01-22, Thursday   , Baby Car Seat     , travel  , 15350,   518,             31, This is so cute!               ,               25000,         3.78,                     4
+2026-01-23, Friday     , Baby Feeding Chair, feeding , 43131,  3380,            171, How much is this?              ,               16000,         8.63,                    13
+2026-01-24, Saturday   , Baby Mittens Set  , clothing, 28212,   975,            182, I need this for my baby        ,                 500,         4.75,                    26
+2026-01-25, Sunday     , Baby Bodysuit     , clothing, 38408,  2008,            156, Do you deliver outside Nairobi?,                 900,         6.04,                    25
+2026-01-26, Monday     , Baby Stroller     , travel  , 26791,  1819,            265, Where are you located?         ,               32000,         8.77,                     1
+2026-01-27, Tuesday    , Baby Towel        , care    ,  3750,   248,             36, Do you have other colors?      ,                 700,         8.53,                    17
+2026-01-28, Wednesday  , Baby Bodysuit     , clothing, 17896,  1345,            197, Do you have other colors?      ,                 900,         9.72,                    35
+2026-01-29, Thursday   , Baby Bodysuit     , clothing, 27064,  2089,            116, I need this for my baby        ,                 900,         8.58,                    19
+2026-01-30, Friday     , Baby Feeding Chair, feeding , 31711,  2418,            186, How much is this?              ,               16000,         8.8 ,                     6
+2026-01-31, Saturday   , Baby Feeding Chair, feeding , 21541,  1632,             89, Do you deliver outside Nairobi?,               16000,         8.4 ,                     6
+2026-02-01, Sunday     , Baby Car Seat     , travel  , 26070,  1169,            220, Where are you located?         ,               25000,         6.17,                     2
+2026-02-02, Monday     , Baby Car Seat     , travel  , 43786,  3380,            409, How much is this?              ,               25000,         9.59,                     6
+2026-02-03, Tuesday    , Feeding Bottle    , feeding , 27510,  1451,            186, Is it available?               ,                 800,         6.63,                    48
+2026-02-04, Wednesday  , Baby Romper       , clothing, 23776,  1486,            155, Where are you located?         ,                1200,         7.55,                    16
+2026-02-05, Thursday   , Teether           , care    , 32907,  1778,            324, How much is this?              ,                 350,         7.37,                    52
+2026-02-06, Friday     , Baby Towel        , care    ,  4983,   259,             28, Is it available?               ,                 700,         6.32,                    48
+2026-02-07, Saturday   , Teether           , care    , 30535,  1739,            293, This is so cute!               ,                 350,         7.61,                    34
+2026-02-08, Sunday     , Baby Towel        , care    ,  9564,   586,            107, This is so cute!               ,                 700,         8.36,                    51
+2026-02-09, Monday     , Feeding Bottle    , feeding , 11323,   471,             25, I need this for my baby        ,                 800,         4.6 ,                    51
+2026-02-10, Tuesday    , Baby Feeding Chair, feeding ,  2545,    79,             14, Can I order today?             ,               16000,         4.2 ,                    14
+2026-02-11, Wednesday  , Teether           , care    , 31969,  2460,            417, Where are you located?         ,                 350,        10.3 ,                    48
+2026-02-12, Thursday   , Baby Feeding Chair, feeding , 43773,  2080,            343, I need this for my baby        ,               16000,         6.32,                    14
+2026-02-13, Friday     , Baby Car Seat     , travel  , 10436,   563,             77, Do you have other colors?      ,               25000,         6.87,                     4
+2026-02-14, Saturday   , Baby Bodysuit     , clothing, 12616,   863,             97, I need this for my baby        ,                 900,         8.38,                    48
+2026-02-15, Sunday     , Teether           , care    , 14676,   977,             49, Do you have other colors?      ,                 350,         7.32,                    54
+2026-02-16, Monday     , Teether           , care    , 35933,  1611,            286, Where are you located?         ,                 350,         6.08,                    27
+2026-02-17, Tuesday    , Baby Car Seat     , travel  , 49037,  2915,            266, Do you deliver outside Nairobi?,               25000,         7.03,                     5
+2026-02-18, Wednesday  , Teether           , care    , 26557,   856,             56, Is it available?               ,                 350,         3.64,                    33
+2026-02-19, Thursday   , Baby Mittens Set  , clothing, 11155,   456,             87, Can I order today?             ,                 500,         5.65,                    46
+2026-02-20, Friday     , Baby Carrier      , travel  , 43898,  2608,            514, Is it available?               ,                2800,         8.28,                    18
+2026-02-21, Saturday   , Baby Stroller     , travel  , 42970,  3230,            640, Is it available?               ,               32000,        10.5 ,                     7
+2026-02-22, Sunday     , Baby Stroller     , travel  , 16899,   561,             61, I need this for my baby        ,               32000,         4.04,                     5
+2026-02-23, Monday     , Feeding Bottle    , feeding , 17934,   744,            129, Do you deliver outside Nairobi?,                 800,         5.59,                    55
+2026-02-24, Tuesday    , Feeding Bottle    , feeding , 13593,   439,             47, Do you have other colors?      ,                 800,         3.92,                    50
+2026-02-25, Wednesday  , Baby Bodysuit     , clothing, 29376,  2287,            397, Do you have other colors?      ,                 900,        10.49,                    14
+2026-02-26, Thursday   , Baby Towel        , care    , 10245,   803,            146, Can I order today?             ,                 700,        10.69,                    44
+2026-02-27, Friday     , Feeding Bottle    , feeding , 20297,  1141,            101, Do you have other colors?      ,                 800,         6.62,                    44
+2026-02-28, Saturday   , Teether           , care    , 27425,  1777,            129, Can I order today?             ,                 350,         7.42,                    41
+2026-03-01, Sunday     , Teether           , care    ,  9906,   408,             34, Do you deliver outside Nairobi?,                 350,         4.81,                    56
+2026-03-02, Monday     , Baby Bodysuit     , clothing, 39443,  2327,            148, I need this for my baby        ,                 900,         6.65,                    50
+2026-03-03, Tuesday    , Baby Carrier      , travel  , 48007,  2077,            144, Where are you located?         ,                2800,         4.93,                    13
+2026-03-04, Wednesday  , Baby Carrier      , travel  , 19602,  1524,            273, I need this for my baby        ,                2800,        10.56,                    13
+2026-03-05, Thursday   , Baby Feeding Chair, feeding , 48542,  3046,            403, Is it available?               ,               16000,         7.94,                    12
+2026-03-06, Friday     , Teether           , care    , 17585,   886,             93, Is it available?               ,                 350,         6.1 ,                    17
+2026-03-07, Saturday   , Baby Towel        , care    , 23754,  1571,            195, Is it available?               ,                 700,         8.26,                    15
+2026-03-08, Sunday     , Baby Car Seat     , travel  , 42996,  1763,            268, Can I order today?             ,               25000,         5.35,                     5
+2026-03-09, Monday     , Baby Stroller     , travel  , 23452,  1701,            211, I need this for my baby        ,               32000,         9.05,                     6
+2026-03-10, Tuesday    , Baby Stroller     , travel  ,  4396,   331,             44, Do you have other colors?      ,               32000,         9.53,                     2
+2026-03-11, Wednesday  , Baby Bodysuit     , clothing,  8183,   476,             42, Do you have other colors?      ,                 900,         6.84,                    15
+2026-03-12, Thursday   , Baby Car Seat     , travel  , 22695,  1585,            235, How much is this?              ,               25000,         9.05,                     1
+2026-03-13, Friday     , Feeding Bottle    , feeding , 33290,  2442,            381, This is so cute!               ,                 800,         9.62,                    52
+2026-03-14, Saturday   , Baby Carrier      , travel  , 34088,  2607,            171, Do you have other colors?      ,                2800,         8.65,                    31
+2026-03-15, Sunday     , Teether           , care    ,  4469,   176,             32, I need this for my baby        ,                 350,         5.37,                    54
+2026-03-16, Monday     , Baby Feeding Chair, feeding , 11017,   586,            106, I need this for my baby        ,               16000,         7.24,                    11
+2026-03-17, Tuesday    , Baby Bodysuit     , clothing, 42329,  3005,            253, Do you have other colors?      ,                 900,         8.29,                    48
+2026-03-18, Wednesday  , Baby Stroller     , travel  , 38766,  1165,            155, Do you have other colors?      ,               32000,         3.8 ,                     5
+2026-03-19, Thursday   , Baby Car Seat     , travel  , 28588,  1227,             96, This is so cute!               ,               25000,         4.96,                     5
+2026-03-20, Friday     , Baby Stroller     , travel  , 11882,   939,            135, Do you deliver outside Nairobi?,               32000,        10.18,                     7
+2026-03-21, Saturday   , Feeding Bottle    , feeding ,  9009,   555,             72, This is so cute!               ,                 800,         7.76,                    44
+2026-03-22, Sunday     , Baby Stroller     , travel  ,  3007,   106,             17, Do you deliver outside Nairobi?,               32000,         4.66,                     2
+2026-03-23, Monday     , Baby Romper       , clothing, 23736,  1854,            187, I need this for my baby        ,                1200,         9.39,                    32
+2026-03-24, Tuesday    , Baby Mittens Set  , clothing, 37150,  2845,            185, Can I order today?             ,                 500,         8.65,                    13
+2026-03-25, Wednesday  , Baby Bodysuit     , clothing,  9059,   583,             35, Do you deliver outside Nairobi?,                 900,         7.21,                    36
+2026-03-26, Thursday   , Baby Feeding Chair, feeding , 49295,  3224,            193, I need this for my baby        ,               16000,         7.32,                    11
+2026-03-27, Friday     , Teether           , care    , 11077,   523,             74, Can I order today?             ,                 350,         6.06,                    27
+2026-03-28, Saturday   , Teether           , care    ,  4353,   346,             52, Is it available?               ,                 350,        10.34,                    21
