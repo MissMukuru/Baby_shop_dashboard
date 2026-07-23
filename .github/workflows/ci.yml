@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install ruff pytest fastapi "uvicorn[standard]" httpx
+
+      - name: Lint
+        run: ruff check Nila_baby_shop app
+
+      - name: Run tests
+        run: pytest tests/ -v
+
+  build-images:
+    needs: lint-and-test
+    runs-on: ubuntu-latest
+    # Only build/push on main — PRs just get lint+test above.
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build API image
+        run: docker build -f Dockerfile.api -t nila-api:${{ github.sha }} .
+
+      - name: Build frontend image
+        run: docker build -f Dockerfile.frontend -t nila-frontend:${{ github.sha }} .
+
+      # Deploy step is intentionally a placeholder — plug in your cloud target,
+      # e.g. `gcloud run deploy` or `aws ecs update-service`, once infra is set up.
+      - name: Deploy (placeholder)
+        run: echo "Add cloud deploy step here (Cloud Run / ECS / etc.)"

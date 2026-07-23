@@ -1,0 +1,51 @@
+# DVC pipeline: defines how raw data becomes a trained model, and how DVC
+# knows which stages need to re-run when an input changes.
+#
+# Setup (one-time):
+#   pip install dvc[s3]        # or dvc[gs] / dvc[azure] depending on your remote
+#   dvc init
+#   dvc remote add -d storage s3://your-bucket/nila-baby-shop   # or gs://, etc.
+#
+# Day to day:
+#   dvc repro          # re-runs only stages whose deps/params changed
+#   dvc push           # uploads data/model versions to remote storage
+#   dvc pull           # pulls them back down (e.g. in CI, or a teammate's machine)
+
+stages:
+  prepare_dataset:
+    cmd: python -m nila_baby_shop.dataset
+    deps:
+      - nila_baby_shop/dataset.py
+      - data/raw/dataset.csv
+    outs:
+      - data/processed/dataset.csv
+
+  build_features:
+    cmd: python -m nila_baby_shop.features
+    deps:
+      - nila_baby_shop/features.py
+      - data/processed/dataset.csv
+    outs:
+      - data/processed/forecast_features.csv
+      - data/processed/base_features.csv
+
+  train:
+    cmd: python -m nila_baby_shop.modeling.demand_forecast
+    deps:
+      - nila_baby_shop/modeling/demand_forecast.py
+      - data/processed/forecast_features.csv
+      - data/processed/base_features.csv
+    outs:
+      - models/demand_forecast_model.pkl
+    metrics:
+      - reports/train_metrics.json:
+          cache: false
+
+  predict:
+    cmd: python -m nila_baby_shop.modeling.predict_demand
+    deps:
+      - nila_baby_shop/modeling/predict_demand.py
+      - models/demand_forecast_model.pkl
+      - data/processed/forecast_features.csv
+    outs:
+      - data/processed/demand_predictions.csv

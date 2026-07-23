@@ -1,0 +1,24 @@
+# Dockerfile.api — builds the FastAPI backend only.
+# Build:  docker build -f Dockerfile.api -t nila-api .
+# Run:    docker run -p 8000:8000 nila-api
+
+FROM python:3.11-slim
+
+WORKDIR /code
+
+# System deps kept minimal; add build-essential only if a package needs compiling.
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt \
+    && pip install --no-cache-dir fastapi "uvicorn[standard]"
+
+# App code + trained model artifact + package source.
+COPY app/ ./app/
+COPY Nila_baby_shop/ ./Nila_baby_shop/
+COPY models/ ./models/
+
+EXPOSE 8000
+
+HEALTHCHECK --interval=30s --timeout=5s --start-period=10s \
+  CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')" || exit 1
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
