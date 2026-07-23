@@ -1,20 +1,19 @@
-import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, accuracy_score, classification_report
-from xgboost import XGBRegressor
-from sklearn.ensemble import RandomForestClassifier
-import joblib
-import typer
 from pathlib import Path
+
+import joblib
 from loguru import logger
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, classification_report, mean_squared_error
+from sklearn.model_selection import train_test_split
+import typer
+from xgboost import XGBRegressor
+from nila_baby_shop.config import MODELS_DIR, PROCESSED_DATA_DIR
 
 nltk.download('vader_lexicon')
 
-
-from nila_baby_shop.config import PROCESSED_DATA_DIR, MODELS_DIR
 app = typer.Typer()
 
 

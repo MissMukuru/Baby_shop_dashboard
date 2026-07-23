@@ -1,7 +1,8 @@
 from pathlib import Path
+
 from loguru import logger
-import typer
 import pandas as pd
+import typer
 
 from nila_baby_shop.config import PROCESSED_DATA_DIR
 

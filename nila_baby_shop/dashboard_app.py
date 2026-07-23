@@ -1,9 +1,9 @@
 from __future__ import annotations
 
+import numpy as np
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-import numpy as np
 
 from nila_baby_shop.config import PROCESSED_DATA_DIR
 
