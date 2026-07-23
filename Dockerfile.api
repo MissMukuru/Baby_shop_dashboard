@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt \
 
 # App code + trained model artifact + package source.
 COPY app/ ./app/
-COPY Nila_baby_shop/ ./Nila_baby_shop/
+COPY nila_baby_shop/ ./nila_baby_shop/
 COPY models/ ./models/
 
 EXPOSE 8000
